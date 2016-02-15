@@ -3,6 +3,7 @@ body {box-sizing: border-box;
 
 #topRow {
   position: relative;
+  width:100%;
 }
 #smallCircle{
   height: 100px;
@@ -23,14 +24,13 @@ body {box-sizing: border-box;
   text-align:center;
   
 }
-#static h1{font-size: 9px;
-font-family:sans-serif;}
+
 #september{
   padding-right:100px
 }
 h2{font-size:12px;
 font-family:sans-serif;
-max-width: 60ch
+max-width: 100ch
 }
 #left{
   vertical-align:top;
@@ -44,6 +44,8 @@ max-width: 60ch
   vertical-align:top;
   display:inline-block;
   width: 50%;
+  padding-top: 70px;
+  padding-right: 10px;
 }
 
 #static {
@@ -60,8 +62,8 @@ max-width: 60ch
 
   
 #pic{
-  height:400px;
-  width:400px;
+  height:500px;
+  width:100%;
 }
 #textRight{
   text-align:right;
@@ -102,10 +104,11 @@ height: 50px;
 }
 
 #gray{color:darkgrey;
-font-size:10px}
+font-size:10px;margin: 0;}
 
 #never{
-font-size: 14px
+font-size: 18px;
+    margin: 0;
 }
 button{
     border-radius: 10%;
@@ -120,3 +123,4 @@ button{
 input{
   margin-top: 10px;
 }
+#black{font-size: 12px;margin: 4px 0 0 0;}
